@@ -1,12 +1,12 @@
+import NewPost from "./components/NewPost";
 import Post from "./components/Post";
+import PostList from "./components/PostList";
 
 function App() {
   return (
-    <>
-      <Post author="안현모" body="ㅇㅇ" />
-      <Post author="안현모" body="ㅇㅇ" />
-      <Post author="안현모" body="ㅇㅇ" />
-    </>
+    <main>
+      <PostList />
+    </main>
   );
 }
 
